@@ -10,6 +10,10 @@ NiceTools Neo 内置 **LiteNX 处理引擎**：以本地 FFmpeg 为底座，叠�
 
 当前版本：**1.5.3 Neo**（LiteNX 引擎 / 裁剪 / 格式转换 / MC音效）
 
+| 视频裁剪 | MC音效 |
+| --- | --- |
+| ![视频裁剪](docs/screenshots/home.png) | ![MC音效](docs/screenshots/mcsounds.png) |
+
 > 这是 NiceTools 的**开源版**：以 MIT 许可发布，**不包含**音频解析功能。
 > **源码仓库不包含 Electron 和 FFmpeg 二进制**，发行包也不内置 FFmpeg —— 首次使用时请按[首次配置 FFmpeg](#首次配置-ffmpeg)操作。
 

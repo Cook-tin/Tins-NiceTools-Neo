@@ -4,7 +4,7 @@ dist/
 runtime-electron/
 test-output/
 test-media/
-screenshots/
+/screenshots/
 resources/ffmpeg/bin/*
 !resources/ffmpeg/bin/.gitkeep
 build/*.exe
