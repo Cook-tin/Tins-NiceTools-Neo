@@ -1,6 +1,6 @@
 # NiceTools Neo
 
-> 剪辑，不必等待。为 Windows 11 打造的轻量视频工具箱。
+> 复杂归引擎，简单给你。为 Windows 11 打造的轻量视频工具箱。
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-black.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Windows%2011%20x64-black.svg)](#系统要求)
