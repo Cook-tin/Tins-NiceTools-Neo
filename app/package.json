@@ -1,0 +1,9 @@
+{
+  "name": "nicetools-neo",
+  "productName": "NiceTools Neo",
+  "version": "1.5.3",
+  "description": "NiceTools Neo — 轻量、快速的 Windows 视频裁剪工具",
+  "main": "main.js",
+  "author": "Tin",
+  "license": "MIT"
+}

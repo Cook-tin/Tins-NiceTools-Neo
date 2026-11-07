@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; img-src 'self' data: http://127.0.0.1:*; media-src http://127.0.0.1:*; style-src 'self' 'unsafe-inline' file:; script-src 'self' file:; connect-src http://127.0.0.1:*; font-src 'self' data:; object-src 'none'; base-uri 'none'"
+    />
+    <title>NiceTools Neo</title>
+    <link rel="icon" type="image/png" href="./assets/logo.png" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./css/mcsounds.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="boot">
+        <div class="boot-mark"></div>
+        <div class="boot-name">NiceTools Neo</div>
+      </div>
+    </div>
+    <div id="overlay-root"></div>
+    <div id="toast-root" aria-live="polite"></div>
+    <div id="drop-overlay" class="drop-overlay" hidden>
+      <div class="drop-card">
+        <div class="drop-icon" id="drop-icon"></div>
+        <div class="drop-title">松开以打开</div>
+        <div class="drop-sub">支持 MP4 / MOV / MKV / WebM 等格式</div>
+      </div>
+    </div>
+
+    <script defer src="./js/icons.js"></script>
+    <script defer src="./js/format.js"></script>
+    <script defer src="./js/api.js"></script>
+    <script defer src="./js/state.js"></script>
+    <script defer src="./js/history.js"></script>
+    <script defer src="./js/ui.js"></script>
+    <script defer src="./js/memory.js"></script>
+    <script defer src="./js/home.js"></script>
+    <script defer src="./js/timeline.js"></script>
+    <script defer src="./js/panels.js"></script>
+    <script defer src="./js/editor.js"></script>
+    <script defer src="./js/modals.js"></script>
+    <script defer src="./js/convert.js"></script>
+    <script defer src="./js/hub.js"></script>
+    <script defer src="./js/mcsounds.js"></script>
+    <script defer src="./js/settings-page.js"></script>
+    <script defer src="./js/app.js"></script>
+  </body>
+</html>

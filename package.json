@@ -1,0 +1,30 @@
+{
+  "name": "nicetools-neo-workspace",
+  "version": "1.5.3",
+  "private": true,
+  "description": "NiceTools Neo — lightweight, fast Windows video toolkit",
+  "author": "Tin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cook-tin/Tins-NiceTools-Neo.git"
+  },
+  "homepage": "https://github.com/Cook-tin/Tins-NiceTools-Neo#readme",
+  "bugs": {
+    "url": "https://github.com/Cook-tin/Tins-NiceTools-Neo/issues"
+  },
+  "scripts": {
+    "test": "node tests/render.test.js && node tests/engine.test.js",
+    "test:render": "node tests/render.test.js",
+    "build": "node scripts/build-portable.mjs",
+    "build:no-ffmpeg": "node scripts/build-portable.mjs --no-ffmpeg",
+    "build:launcher": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-launcher.ps1",
+    "fetch:ffmpeg": "node scripts/fetch-ffmpeg.mjs",
+    "fetch:electron": "node scripts/fetch-electron.mjs",
+    "make:test-media": "node scripts/make-test-media.mjs",
+    "make:icon": "python scripts/make-icon.py",
+    "build:native": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-native.ps1",
+    "check": "node scripts/check-syntax.mjs",
+    "build:update": "node scripts/build-update.mjs"
+  }
+}

@@ -1,0 +1,21 @@
+node_modules/
+dist/
+.cache/
+runtime-electron/
+test-output/
+test-media/
+screenshots/
+resources/ffmpeg/bin/*
+!resources/ffmpeg/bin/.gitkeep
+build/*.exe
+build/installer-payload.zip
+*.log
+*.pdb
+.env
+.env.*
+tmp-profile/
+.DS_Store
+
+# 发行产物 / 本地打包
+*.zip
+_drag_wav/
