@@ -94,7 +94,7 @@ NiceTools Neo 内置 **LiteNX 处理引擎**：以本地 FFmpeg 为底座，叠�
 
 启动器会主动清掉 `ELECTRON_RUN_AS_NODE` 和 `ELECTRON_ENABLE_LOGGING` 这两个环境变量。某些终端/自动化环境会把 `ELECTRON_RUN_AS_NODE=1` 传给子进程，导致 Electron 以 Node 模式运行、窗口一闪而过；用启动器可以避免这个问题。
 
-如果双击 `NiceTools.exe` 完全没反应，通常是因为程序放在带 Windows 权限保护的工作区目录里。请运行同目录的 `NiceTools.cmd`：它会把整个程序复制到 `%LOCALAPPDATA%\NiceTools` 再启动（只需首次复制）。也可以手动把整个文件夹移到 `C:\NiceTools` 或桌面。
+如果双击 `NiceTools.exe` 完全没反应，通常是因为程序放在带 Windows 权限保护的工作区目录里。请运行同目录的 `NiceTools.cmd`：它会把整个程序复制到 `%LOCALAPPDATA%\NiceTools Neo` 再启动（只需首次复制）。也可以手动把整个文件夹移到 `C:\NiceTools` 或桌面。
 
 如果启动失败，会弹出一个原生错误对话框，显示退出代码和日志路径；把 `%APPDATA%\NiceTools Neo\logs\main.log` 发到 Issues 即可定位。
 
